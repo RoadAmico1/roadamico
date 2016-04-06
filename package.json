@@ -104,7 +104,7 @@
     "start": "node server/app.js",
     "test": "grunt test",
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update",
-    "postinstall": "HOME=$OPENSHIFT_REPO_DIR bower install && gem install sass"
+    "postinstall": "HOME=$OPENSHIFT_REPO_DIR bower install"
   },
   "private": true
 }
